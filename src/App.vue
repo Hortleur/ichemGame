@@ -3,10 +3,6 @@ import { RouterLink, RouterView } from "vue-router";
 import { reactive, ref } from "vue";
 
 const showMenu = ref(false);
-
-function show() {
-  this.showMenu = !this.showMenu;
-}
 </script>
 
 <template>
@@ -18,7 +14,7 @@ function show() {
         class="w-32"
       />
       <div>
-        <button @click="show()">
+        <button @click="showMenu = !showMenu">
           <font-awesome-icon icon="bars" size="2x" class="text-white" />
         </button>
       </div>
@@ -53,7 +49,7 @@ function show() {
         </div>
       </nav>
       <div>
-        <button @click="show()">
+        <button @click="showMenu = !showMenu">
           <font-awesome-icon icon="times" size="2x" class="text-white" />
         </button>
       </div>
