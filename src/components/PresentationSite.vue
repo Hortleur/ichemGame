@@ -39,10 +39,5 @@ import { RouterLink } from "vue-router";
         l'accompagnement d'un formateur professionnel d'adulte diplômé
       </p>
     </div>
-    <div class="flex flex-row justify-center mt-4">
-      <router-link to="/formation">
-        <button class="font-semibold p-2 rounded-full bg-blueIg">En savoir plus</button>
-      </router-link>
-    </div>
   </section>
 </template>
