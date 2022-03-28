@@ -21,7 +21,7 @@ defineProps({
         type="video/mp4"
         width="300"
         controls
-        controlslist=" nodownload nofullscreen"
+        controlslist=" nodownload"
         class="rounded-2xl"
       ></video>
     </div>
