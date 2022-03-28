@@ -1,14 +1,17 @@
+<script setup>
+import { RouterLink } from "vue-router";
+</script>
 <template>
-  <section id="pres" class="mx-1">
+  <section
+    id="pres"
+    class="mx-1 bg-darkblue bg-opacity-90 text-white my-2 p-2 rounded-3xl"
+  >
     <div class="w-1/3 float-right mt-36">
       <img
         src="../assets/ichem1.png"
         alt="Photo d'ichem"
         class="bg-gradient-to-tl from-darkblue to-yellowIg rounded-tl-3xl rounded-br-3xl"
       />
-      <button class="mt-2 font-semibold text-lg bg-blueIg py-2 px-1 rounded-full">
-        Plus sur moi ?
-      </button>
     </div>
 
     <div>
@@ -37,7 +40,9 @@
       </p>
     </div>
     <div class="flex flex-row justify-center mt-4">
-      <button class="font-semibold p-2 rounded-full bg-blueIg">En savoir plus</button>
+      <router-link to="/formation">
+        <button class="font-semibold p-2 rounded-full bg-blueIg">En savoir plus</button>
+      </router-link>
     </div>
   </section>
 </template>
