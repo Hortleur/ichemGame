@@ -5,21 +5,21 @@ import Video from "../components/Video.vue";
 <template>
   <main>
     <Video
-      videoSrc="../../src/assets/videos/david_temoignage.mp4"
+      videoSrc="https://xnwpqgpquvsfqmpenpau.supabase.co/storage/v1/object/public/portfolio/david_temoignage.mp4"
       name="David Lefrançois"
       job="Psychologue Formateur"
       com="Rarement vu quelqu'un qui maîtrisait autant toute la matière"
       class="m-2 mt-8"
     />
     <Video
-      videoSrc="../../src/assets/videos/temoignage_bakari.mp4"
+      videoSrc="https://xnwpqgpquvsfqmpenpau.supabase.co/storage/v1/object/public/portfolio/temoignage_bakari.mp4"
       name="Bakari Niakate"
       job="Entrepreneur Coach"
       com="Un homme au grand coeur"
       class="m-2"
     ></Video>
     <Video
-      videoSrc="../../src/assets/videos/temoignage_monique.mp4"
+      videoSrc="https://xnwpqgpquvsfqmpenpau.supabase.co/storage/v1/object/public/portfolio/temoignage_monique.mp4"
       name="Monique Sallaz"
       job="Docteur Neuroscience"
       com="Une vrai intelligence cognitive"
