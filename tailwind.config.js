@@ -10,7 +10,9 @@ module.exports = {
         greenIg: "#366E69",
         yellowIg: "#EEE8A9",
         cielIg:"#CFEBE7",
-        vertCanardIg:"#22877F"
+        vertCanardIg:"#22877F",
+        darkblue:"#112c37",
+        blueSecond:"#203240"
       }
     },
   },
