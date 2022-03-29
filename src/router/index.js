@@ -12,22 +12,26 @@ const router = createRouter({
     {
       path:'/contact',
       name:'contact',
-      component:() => import('../views/Contact.vue')
+      component:() => import('../views/Contact.vue'),
+      meta: { transition: 'slide-top'}
     },
     {
       path:'/formation',
       name:'formation',
-      component:() => import('../views/Formation.vue')
+      component:() => import('../views/Formation.vue'),
+      meta: { transition: 'slide-right'}
     },
     {
       path:'/temoignage',
       name:'temoignage',
-      component:() => import('../views/Temoignage.vue')
+      component:() => import('../views/Temoignage.vue'),
+      meta: { transition: 'slide-down'}
     },
     {
       path:'/presentation',
       name:'presentation',
-      component:() => import('../views/Presentation.vue')
+      component:() => import('../views/Presentation.vue'),
+      meta: { transition: 'slide-left'}
     }
   ]
 })

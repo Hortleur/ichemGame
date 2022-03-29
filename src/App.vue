@@ -3,34 +3,48 @@ import { RouterView } from "vue-router";
 </script>
 
 <template>
-  <RouterView />
+  <RouterView v-slot="{ Component, route }">
+    <transition :name="route.meta.transition || fade" mode="out-in">
+      <component :is="Component" />
+    </transition>
+  </RouterView>
 </template>
 
 <style>
-#scrollChevron {
-  animation: pulse 1.5s ease-in-out infinite alternate forwards;
+.slide-top-enter-active,
+.slide-top-leave-active {
+  transition: opacity 1s, transform 1s;
 }
-@keyframes pulse {
-  from {
-    transform: scale(1);
-    transform-origin: center;
-    animation-timing-function: ease-out;
-  }
-  10% {
-    transform: scale(0.91);
-    animation-timing-function: ease-in;
-  }
-  17% {
-    transform: scale(0.98);
-    animation-timing-function: ease-out;
-  }
-  33% {
-    transform: scale(0.87);
-    animation-timing-function: ease-in;
-  }
-  45% {
-    transform: scale(1);
-    animation-timing-function: ease-out;
-  }
+.slide-top-enter-from,
+.slide-top-leave-to {
+  opacity: 0;
+  transform: translateY(50%);
+}
+.slide-right-enter-active,
+.slide-right-leave-active {
+  transition: opacity 1s, transform 1s;
+}
+.slide-right-enter-from,
+.slide-right-leave-to {
+  opacity: 0;
+  transform: translateX(-50%);
+}
+.slide-down-enter-active,
+.slide-down-leave-active {
+  transition: opacity 1s, transform 1s;
+}
+.slide-down-enter-from,
+.slide-down-leave-to {
+  opacity: 0;
+  transform: translateY(-50%);
+}
+.slide-left-enter-active,
+.slide-left-leave-active {
+  transition: opacity 1s, transform 1s;
+}
+.slide-left-enter-from,
+.slide-left-leave-to {
+  opacity: 0;
+  transform: translateX(50%);
 }
 </style>
