@@ -3,7 +3,7 @@ import { RouterLink } from "vue-router";
 import Video from "../components/Video.vue";
 </script>
 <template>
-  <main>
+  <main class="pt-6">
     <Video
       videoSrc="https://xnwpqgpquvsfqmpenpau.supabase.co/storage/v1/object/public/portfolio/david_temoignage.mp4"
       imgSrc="https://xnwpqgpquvsfqmpenpau.supabase.co/storage/v1/object/public/portfolio/Yellow and Black Classic Maximalist Sports Football Promo Banner (1).png"
