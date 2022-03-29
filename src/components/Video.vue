@@ -1,19 +1,16 @@
 <script setup>
 defineProps({
   videoSrc: String,
-  name: String,
-  job: String,
-  com: String,
+  imgSrc: String,
 });
 </script>
 
 <template>
   <div
-    class="bg-darkblue bg-opacity-80 rounded-3xl flex flex-col items-center text-white p-2 ring-1 ring-yellowIg"
+    class="bg-darkblue bg-opacity-80 rounded-3xl flex flex-col items-center text-white p-2 ring-1 ring-yellowIg m-2"
   >
     <div class="text-center">
-      <h2 class="text-2xl font-bold">{{ name }}</h2>
-      <p class="text-xl font-semibold">{{ job }}</p>
+      <img :src="imgSrc" alt="présentation du témoignage" class="rounded-3xl mb-3" />
     </div>
     <div>
       <video
@@ -25,6 +22,5 @@ defineProps({
         class="rounded-2xl"
       ></video>
     </div>
-    <cite class="text-center">{{ com }}</cite>
   </div>
 </template>
