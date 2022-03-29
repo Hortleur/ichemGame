@@ -17,7 +17,7 @@ import { RouterLink } from "vue-router";
     <router-link to="/">
       <font-awesome-icon
         icon="chevron-right"
-        class="fixed top-80 right-3 text-white"
+        class="fixed top-1/2 right-3 text-white"
         size="2x"
       />
     </router-link>

@@ -29,7 +29,7 @@ import Video from "../components/Video.vue";
     <router-link to="/">
       <font-awesome-icon
         icon="chevron-up"
-        class="text-white fixed top-0 left-44"
+        class="text-white fixed top-0 left-1/2"
         size="2x"
       />
     </router-link>
