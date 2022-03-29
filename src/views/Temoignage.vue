@@ -19,7 +19,7 @@ import Video from "../components/Video.vue";
       class="m-2"
     ></Video>
     <Video
-      videoSrc="https://xnwpqgpquvsfqmpenpau.supabase.co/storage/v1/object/public/portfolio/temoignage_monique.mp4"
+      videoSrc="https://xnwpqgpquvsfqmpenpau.supabase.co/storage/v1/object/public/portfolio/temoignage_monique .mp4"
       name="Monique Sallaz"
       job="Docteur Neuroscience"
       com="Une vrai intelligence cognitive"
