@@ -368,7 +368,10 @@ function showPret() {
           le lien ici :
         </p>
         <div class="flex flex-row justify-center bg-emerald-500 p-2 rounded-full">
-          <a href="" target="_blank">
+          <a
+            href="https://calendly.com/ichemgame/reunion-de-30-minutes?month=2022-03"
+            target="_blank"
+          >
             <button class="font-bold text-lg">Prendre Rendez-vous</button>
           </a>
         </div>
