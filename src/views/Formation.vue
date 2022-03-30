@@ -5,16 +5,24 @@ import { RouterLink } from "vue-router";
 <template>
   <main class="text-white text-sm">
     <router-link to="/">
-      <font-awesome-icon icon="chevron-left" size="2x" class="fixed left-3 top-1/2" />
+      <font-awesome-icon
+        icon="chevron-left"
+        size="3x"
+        class="fixed left-1 top-1/2 font-bold"
+      />
     </router-link>
-    <div class="text-sm">
-      <h1 class="text-3xl text-center">Ma promesse:</h1>
-      <p>
+    <div
+      class="bg-darkblue bg-opacity-80 m-4 p-2 ring-1 ring-yellowIg rounded-3xl text-center shadow-md shadow-yellowIg"
+    >
+      <h1 class="text-3xl text-emerald-400">Ma promesse:</h1>
+      <h2 class="text-lg">
         J’aide les indépendants à créer et développer leurs formations en 3 mois clés en
         main.
-      </p>
+      </h2>
     </div>
-    <div>
+    <div
+      class="text-sm bg-darkblue bg-opacity-80 m-4 p-2 ring-1 ring-yellowIg rounded-3xl shadow-md shadow-yellowIg"
+    >
       <p>
         Lorsqu’on s’imagine un métier, notre vision de la réalité est parfois déformée.
       </p>
@@ -24,18 +32,27 @@ import { RouterLink } from "vue-router";
       </p>
       <p>Pourtant, est-ce vraiment le quotidien d’un pompier ?</p>
       <p>Voici la journée type d’un pompier :</p>
-      <div>
-        <p><span>7h:</span>rassemblement du matin</p>
-        <p><span>8h:</span>inventaire du matériel avec vérification</p>
-        <p><span>9h:</span>zoom sur les grandes lignes de la journée</p>
-        <p><span>9h15:</span>pause-café</p>
-        <p><span>9h30:</span>entraînement sur différentes manœuvres</p>
-        <p><span>11h:</span>sport</p>
-        <p><span>12h:</span>repas</p>
-        <p><span>14h:</span>rassemblement.</p>
-        <p><span>14h15:</span>travaux d’intérêt général</p>
-        <p><span>15h:</span>travaux dans les services</p>
-        <p><span>17h:</span>sport libre</p>
+      <div
+        class="text-sm pl-7 bg-blueSecond bg-opacity-80 m-4 p-2 ring-1 ring-yellowIg rounded-3xl"
+      >
+        <p><span class="text-purple-600">7h:</span>rassemblement du matin</p>
+        <p>
+          <span class="text-purple-600">8h:</span>inventaire du matériel avec vérification
+        </p>
+        <p>
+          <span class="text-purple-600">9h:</span>zoom sur les grandes lignes de la
+          journée
+        </p>
+        <p><span class="text-purple-600">9h15:</span>pause-café</p>
+        <p>
+          <span class="text-purple-600">9h20:</span>entraînement sur différentes manœuvres
+        </p>
+        <p><span class="text-purple-600">11h:</span>sport</p>
+        <p><span class="text-purple-600">12h:</span>repas</p>
+        <p><span class="text-purple-600">14h:</span>rassemblement.</p>
+        <p><span class="text-purple-600">14h15:</span>travaux d’intérêt général</p>
+        <p><span class="text-purple-600">15h:</span>travaux dans les services</p>
+        <p><span class="text-purple-600">17h:</span>sport libre</p>
       </div>
       <p>
         Au cours de cette journée, il y aura en moyenne une intervention à réaliser. Dans
@@ -46,7 +63,9 @@ import { RouterLink } from "vue-router";
         en intervention, c’est rarement pour éteindre un feu.
       </p>
     </div>
-    <div>
+    <div
+      class="text-sm bg-darkblue bg-opacity-80 m-4 p-2 ring-1 ring-yellowIg rounded-3xl shadow-md shadow-yellowIg"
+    >
       <p>Imaginez maintenant le quotidien d’un coach.</p>
       <p>
         Vous visualisez sûrement une personne en train de réaliser un coaching. En même
@@ -129,9 +148,13 @@ import { RouterLink } from "vue-router";
       <p>En suivant la même logique, j’aimerais vous poser une question.</p>
       <p>Quelle posture adoptez-vous lorsqu’il s’agit de trouver des clients ?</p>
     </div>
-    <div>
-      <h3>Voici la posture du coach :</h3>
-      <div>
+    <div
+      class="text-sm bg-darkblue bg-opacity-80 m-4 p-2 ring-1 ring-yellowIg rounded-3xl shadow-md shadow-yellowIg"
+    >
+      <h2 class="font-bold text-base my-3">Voici la posture du coach :</h2>
+      <div
+        class="text-sm pl-7 bg-blueSecond bg-opacity-80 m-4 p-2 ring-1 ring-yellowIg rounded-3xl"
+      >
         <p>
           <font-awesome-icon icon="xmark" class="text-red-600" />Cherche à aider tout le
           monde peu importe la problématique
@@ -150,9 +173,13 @@ import { RouterLink } from "vue-router";
         </p>
       </div>
     </div>
-    <div>
-      <h3>Voici la posture du coach-entrepreneur :</h3>
-      <div>
+    <div
+      class="text-sm bg-darkblue bg-opacity-80 m-4 p-2 ring-1 ring-yellowIg rounded-3xl shadow-md shadow-yellowIg"
+    >
+      <h2 class="font-bold text-base my-3">Voici la posture du coach-entrepreneur :</h2>
+      <div
+        class="text-sm pl-7 bg-blueSecond bg-opacity-80 m-4 p-2 ring-1 ring-yellowIg rounded-3xl"
+      >
         <p>
           <font-awesome-icon icon="check" class="text-green-600" />Cherche à aider une
           cible précise qui a un problème DUR (Douloureux, Urgent, Reconnu)
@@ -179,8 +206,12 @@ import { RouterLink } from "vue-router";
         pas de leur activité (et ce que font les 4% de coach-entrepreneurs restants).
       </p>
     </div>
-    <div>
-      <h3>Etes-vous prêt à devenir un coach-entrepreneur ?</h3>
+    <div
+      class="text-sm bg-darkblue bg-opacity-80 m-4 p-2 ring-1 ring-yellowIg rounded-3xl shadow-md shadow-yellowIg"
+    >
+      <h2 class="font-bold text-base my-3">
+        Etes-vous prêt à devenir un coach-entrepreneur ?
+      </h2>
       <p>
         Pour développer votre posture de coach, ça vous a semblé logique de suivre une
         formation de coaching.
@@ -191,7 +222,9 @@ import { RouterLink } from "vue-router";
       </p>
       <p>Dans ma formation "Vivre du coaching", vous découvrirez ma méthode.</p>
     </div>
-    <div>
+    <div
+      class="text-sm bg-darkblue bg-opacity-80 m-4 p-2 ring-1 ring-yellowIg rounded-3xl shadow-md shadow-yellowIg"
+    >
       <p>Bonjour,</p>
       <p>
         Vous êtes formateur professionnel ou occasionnel auprès de vos collègues et vous
@@ -213,7 +246,9 @@ import { RouterLink } from "vue-router";
         Notre collectif est actuellement composé de 3 créatrices professionnelles
         passionnées par la ludopédagogie :
       </p>
-      <ul>
+      <ul
+        class="text-sm pl-7 bg-blueSecond bg-opacity-80 m-4 p-2 ring-1 ring-yellowIg rounded-3xl"
+      >
         <li>
           - Corinne, cœurdiologue ❤, remet l’humain au cœur de l’entreprise, adapte / crée
           des jeux pédagogiques selon les objectifs de ses sessions de formation. Sa
@@ -231,7 +266,9 @@ import { RouterLink } from "vue-router";
         </li>
       </ul>
       <p>Nous vous proposons des accompagnements et des formations en 4 étapes :</p>
-      <ul>
+      <ul
+        class="text-sm pl-7 bg-blueSecond bg-opacity-80 m-4 p-2 ring-1 ring-yellowIg rounded-3xl"
+      >
         <li>
           <font-awesome-icon icon="check" /> Identifier les leviers d’une animation ”fun”
         </li>
@@ -254,10 +291,16 @@ import { RouterLink } from "vue-router";
       </a>
     </div>
 
-    <div>
+    <div
+      class="text-sm bg-darkblue bg-opacity-80 m-4 p-2 ring-1 ring-yellowIg rounded-3xl shadow-md shadow-yellowIg"
+    >
       <div>
-        <h3>SE FORMER AU NEUROSCUENCES COGNITIVES ET COMPORTEMENTALES</h3>
-        <ul>
+        <h2 class="font-bold text-base my-3">
+          SE FORMER AU NEUROSCUENCES COGNITIVES ET COMPORTEMENTALES
+        </h2>
+        <ul
+          class="text-sm pl-7 bg-blueSecond bg-opacity-80 m-4 p-2 ring-1 ring-yellowIg rounded-3xl"
+        >
           <li>
             🧠Vous souhaitez mieux vous connaître, comprendre l’origine de vos
             fonctionnements et de vos comportements, mieux gérer vos prises de décisions
@@ -280,11 +323,15 @@ import { RouterLink } from "vue-router";
         </ul>
       </div>
       <div>
-        <h3>Demandez le plan du programme Neurosciences CO:</h3>
+        <h2 class="font-bold text-base my-3">
+          Demandez le plan du programme Neurosciences CO:
+        </h2>
         <a href="https://institut-alpha.fr/science-co/"
           >https://institut-alpha.fr/science-co/</a
         >
-        <ul>
+        <ul
+          class="text-sm pl-7 bg-blueSecond bg-opacity-80 m-4 p-2 ring-1 ring-yellowIg rounded-3xl"
+        >
           <li>
             <font-awesome-icon icon="check" />Un programme ouvert à tous, quel que soit le
             niveau.
@@ -312,7 +359,9 @@ import { RouterLink } from "vue-router";
           Savez-vous pourquoi la plupart des coachs, consultants et freelances abandonnent
           leur idée de formation en ligne ?
         </p>
-        <ul>
+        <ul
+          class="text-sm pl-7 bg-blueSecond bg-opacity-80 m-4 p-2 ring-1 ring-yellowIg rounded-3xl"
+        >
           <li>
             👎 Ils se lancent dans une formation très dense, avec de nombreux modules,
             vidéos, PDF interactifs… qui prendra des semaines, voire des mois à créer.
@@ -355,7 +404,9 @@ import { RouterLink } from "vue-router";
           Je vous invite à accéder à la première partie de cette formation gratuitement.
         </p>
         <p>Dans cette 1re partie, vous découvrirez :</p>
-        <ul>
+        <ul
+          class="text-sm pl-7 bg-blueSecond bg-opacity-80 m-4 p-2 ring-1 ring-yellowIg rounded-3xl"
+        >
           <li>
             ✅ Les 3 étapes clés de la création d’un mini atelier pour organiser votre
             atelier en direct une seule fois, puis continuer à le vendre toute l'année.
@@ -395,7 +446,9 @@ import { RouterLink } from "vue-router";
           formées en 2021 en distanciel.
         </p>
         <p>Voilà leurs réponses :</p>
-        <ul>
+        <ul
+          class="text-sm pl-7 bg-blueSecond bg-opacity-80 m-4 p-2 ring-1 ring-yellowIg rounded-3xl"
+        >
           <li>🚩 La formation en ligne est ennuyeuse</li>
           <li>🚩 Les apprenants ont des problèmes techniques</li>
           <li>🚩 Les apprenants n’ont pas le temps de suivre la formation</li>
@@ -405,7 +458,9 @@ import { RouterLink } from "vue-router";
           <li>🚩 Le cours en ligne n’a aucun impact sur votre organisation</li>
         </ul>
         <p>Le confinement a chamboulé nos quotidiens :</p>
-        <ul>
+        <ul
+          class="text-sm pl-7 bg-blueSecond bg-opacity-80 m-4 p-2 ring-1 ring-yellowIg rounded-3xl"
+        >
           <li>➕de télétravail</li>
           <li>➖de présentiel</li>
         </ul>
@@ -415,7 +470,9 @@ import { RouterLink } from "vue-router";
           s’adapter à la va-vite…
         </p>
         <p>Et au final, ces formations ont suscité de la déception…</p>
-        <ul>
+        <ul
+          class="text-sm pl-7 bg-blueSecond bg-opacity-80 m-4 p-2 ring-1 ring-yellowIg rounded-3xl"
+        >
           <li>🚫Des visioconférences soporifiques</li>
           <li>🚫Des apprenants passifs</li>
           <li>🚫Des taux d’abandon importants</li>
@@ -427,7 +484,9 @@ import { RouterLink } from "vue-router";
           nouvelles contraintes et ses nouveaux usages.
         </p>
         <p>La solution : se former à l’ère du digital</p>
-        <ul>
+        <ul
+          class="text-sm pl-7 bg-blueSecond bg-opacity-80 m-4 p-2 ring-1 ring-yellowIg rounded-3xl"
+        >
           <li>❔Comment adapter sa pédagogie ?</li>
           <li>❔Comment et quels outils utiliser ?</li>
           <li>❔Comment créer de la présence à distance ?</li>
@@ -438,7 +497,9 @@ import { RouterLink } from "vue-router";
           innovants.
         </p>
         <p>Les 3 points forts de ce programme :</p>
-        <ul>
+        <ul
+          class="text-sm pl-7 bg-blueSecond bg-opacity-80 m-4 p-2 ring-1 ring-yellowIg rounded-3xl"
+        >
           <li>
             📲 DU MICROLEARNING : un format court, percutant, adapté à l’apprentissage et
             à la mémorisation.
@@ -457,7 +518,9 @@ import { RouterLink } from "vue-router";
           rythme et selon vos disponibilités, où que vous soyez, via votre ordinateur ou
           directement sur notre application mobile.
         </p>
-        <ul>
+        <ul
+          class="text-sm pl-7 bg-blueSecond bg-opacity-80 m-4 p-2 ring-1 ring-yellowIg rounded-3xl"
+        >
           <li>✅Vous apprendrez comment structurer une formation à distance</li>
           <li>
             ✅Vous apprendrez à l’animer et la rendre interactive avec la gamification
@@ -479,3 +542,10 @@ import { RouterLink } from "vue-router";
     </div>
   </main>
 </template>
+
+<style>
+p {
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
+</style>
