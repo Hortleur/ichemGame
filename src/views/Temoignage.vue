@@ -5,16 +5,13 @@ import Video from "../components/Video.vue";
 <template>
   <main class="pt-6">
     <Video
-      videoSrc="https://xnwpqgpquvsfqmpenpau.supabase.co/storage/v1/object/public/portfolio/david_temoignage.mp4"
-      imgSrc="https://xnwpqgpquvsfqmpenpau.supabase.co/storage/v1/object/public/portfolio/Yellow and Black Classic Maximalist Sports Football Promo Banner (1).png"
+      videoSrc="https://xnwpqgpquvsfqmpenpau.supabase.co/storage/v1/object/public/portfolio/temoignage_david.mp4"
     />
     <Video
-      videoSrc="https://xnwpqgpquvsfqmpenpau.supabase.co/storage/v1/object/public/portfolio/temoignage_bakari.mp4"
-      imgSrc="https://xnwpqgpquvsfqmpenpau.supabase.co/storage/v1/object/public/portfolio/Yellow and Black Classic Maximalist Sports Football Promo Banner copie.png"
+      videoSrc="https://xnwpqgpquvsfqmpenpau.supabase.co/storage/v1/object/public/portfolio/bakari_temoignagne.mp4"
     ></Video>
     <Video
-      videoSrc="https://xnwpqgpquvsfqmpenpau.supabase.co/storage/v1/object/public/portfolio/temoignage_monique .mp4"
-      imgSrc="https://xnwpqgpquvsfqmpenpau.supabase.co/storage/v1/object/public/portfolio/Yellow and Black Classic Maximalist Sports Football Promo Banner.png"
+      videoSrc="https://xnwpqgpquvsfqmpenpau.supabase.co/storage/v1/object/public/portfolio/monique_temoignage.mp4"
     ></Video>
 
     <router-link to="/">
