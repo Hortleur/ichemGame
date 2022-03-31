@@ -10,7 +10,7 @@ import { RouterLink } from "vue-router";
         size="2x"
       />
     </router-link>
-    <div class="h-screen flex flex-row justify-around my-10">
+    <div class="flex flex-row justify-around my-10">
       <a
         href="https://www.facebook.com/ichem.brahami"
         target="_blank"

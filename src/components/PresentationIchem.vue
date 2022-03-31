@@ -1,6 +1,13 @@
 <script setup></script>
 <template>
   <section class="bg-darkblue bg-opacity-80 text-white mx-2 p-2 rounded-3xl">
+    <div class="w-1/3 float-left xl:mt-0 xl:w-auto">
+      <img
+        src="../assets/ichem1.png"
+        alt="Photo d'ichem"
+        class="rounded-tr-3xl rounded-bl-lg"
+      />
+    </div>
     <p>Le 28 novembre 2019, j’ai pris une décision qui a changé ma vie.</p>
     <p>La décision d’enfin oser me faire confiance et suivre mon instinct.</p>
     <p>

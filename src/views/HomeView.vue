@@ -14,13 +14,13 @@ import { RouterLink } from "vue-router";
     </div>
     <div class="flex flex-row justify-between mx-1">
       <router-link to="/presentation">
-        <div class="flex flex-row">
+        <div class="flex flex-row items-center">
           <font-awesome-icon icon="chevron-left" size="2x" />
           <span>Présentation</span>
         </div>
       </router-link>
       <router-link to="/formation">
-        <div class="flex flex-row">
+        <div class="flex flex-row items-center">
           <span>Formations</span>
           <font-awesome-icon icon="chevron-right" size="2x" />
         </div>

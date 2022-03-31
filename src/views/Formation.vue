@@ -9,12 +9,30 @@ const pret = ref(false);
 
 function show() {
   showMore.value = !showMore.value;
+  if ((next1.value = true)) {
+    next1.value = false;
+  }
+  if ((posture.value = true)) {
+    posture.value = false;
+  }
+  if ((pret.value = true)) {
+    pret.value = false;
+  }
 }
 function showNext1() {
   next1.value = !next1.value;
+  if ((posture.value = true)) {
+    posture.value = false;
+  }
+  if ((pret.value = true)) {
+    pret.value = false;
+  }
 }
 function showPosture() {
   posture.value = !posture.value;
+  if ((pret.value = true)) {
+    pret.value = false;
+  }
 }
 function showPret() {
   pret.value = !pret.value;
